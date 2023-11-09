@@ -30,5 +30,3 @@ git clone https://github.com/mateusmaranhaogit/TelaDeLoginTDD.git
 ```
 mvn test
 ```
-## Última atualização 30/10/2023
-
