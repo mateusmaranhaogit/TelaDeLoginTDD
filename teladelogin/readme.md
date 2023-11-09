@@ -6,10 +6,10 @@ Classe de login para autenticação com simulação de consulta no banco de dado
 
 ## Funcionalidades 
 
-A classe LoginScreen possuí os seguintes métodos:
-- public LoginScreen(): Método construtor. Inicializa uma nova instância LoginScreen e inicializa o banco de dados do usuário.
-- public boolean login(String username, String password): Realiza a consulta das credenciais informadas no banco de dados.
-- public void addUser(String username, String password): Adiciona um novo usuário ao banco de dados.
+A classe 'LoginScreen' possuí os seguintes métodos:
+- 'public LoginScreen()': Método construtor. Inicializa uma nova instância LoginScreen e inicializa o banco de dados do usuário.
+- 'public boolean login(String username, String password)': Realiza a consulta das credenciais informadas no banco de dados.
+- 'public void addUser(String username, String password)': Adiciona um novo usuário ao banco de dados.
 
 ## Requisitos
 
