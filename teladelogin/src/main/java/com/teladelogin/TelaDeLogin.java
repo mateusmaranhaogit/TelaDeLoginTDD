@@ -15,7 +15,6 @@ public class TelaDeLogin {
 
 	/**
 	 * Constrói uma nova instância da tela de login e inicializa o banco de dados de usuários.
-	 * Para fins de exemplo, ele carrega o banco de dados com alguns usuários de amostra.
 	 */
 	public TelaDeLogin() {
 		userDatabase = new HashMap<>();
@@ -46,8 +45,7 @@ public class TelaDeLogin {
 	}
 
 	/**
-	 * Adiciona um novo usuário ao banco de dados de usuários. Observe que este método não é
-	 * recomendado para uso em um ambiente de produção, pois não possui medidas de segurança adequadas.
+	 * Adiciona um novo usuário ao banco de dados de usuários.
 	 * 
 	 * @param username O nome de usuário do novo usuário.
 	 * @param password A senha do novo usuário.
